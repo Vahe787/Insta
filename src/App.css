@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  margin-top: 20%;
+  width: 100%;
+  padding: 20px 30px;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-left: 23%;
+  background: none;
+  padding: 50px 0 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+  outline: none;
+  border-radius: 5px;
+  font-size: 13px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+::placeholder {
+  color: rgb(221, 221, 221);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container input {
+  background: none;
+  background: rgb(90, 90, 90);
+}
+
+.registerbtn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+  border-radius: 5px;
+  font-size: 11px;
+  background: rgb(46, 48, 143);
+  color: rgb(119, 135, 197);
+}
+
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(169, 169, 169);
+  font-size: 7px;
+  margin-top: 8px;
+}
+
+.text1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 8px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.text2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(169, 169, 169);
+  font-size: 8px;
+}
+
+.text3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 9px;
+  margin-left: 3px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gic {
+  margin-top: 170px;
+  border: 1px solid darkgray;
+}
+
+.text1-container {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
 }
